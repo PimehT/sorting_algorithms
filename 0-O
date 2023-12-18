@@ -1,0 +1,3 @@
+Best Case: O(n) - When the array is already sorted, and the algorithm requires only one pass to confirm this.
+Average Case: O(n^2) - For random input, Bubble Sort generally requires nested iterations through the array.
+Worst Case: O(n^2) - When the array is reverse sorted, the algorithm needs to perform the maximum number of comparisons and swaps.
