@@ -1,0 +1,14 @@
+Best Case:
+
+Time Complexity: O(n log n)
+Explanation: In the best-case scenario, the pivot chosen happens to be the median or close to the median every time, which divides the array into almost equal parts. This leads to a balanced partitioning, resulting in optimal performance.
+
+Average Case:
+
+Time Complexity: O(n log n)
+Explanation: On average, Quick Sort performs with a time complexity of O(n log n). It divides the array into roughly equal parts in each recursive call.
+
+Worst Case:
+
+Time Complexity: O(n^2)
+Explanation: In the worst-case scenario, the pivot chosen is the smallest or largest element of the array in every partitioning step. This causes the partitioning to be highly unbalanced, resulting in quadratic time complexity.

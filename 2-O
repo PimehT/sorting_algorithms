@@ -1,0 +1,11 @@
+Best Case:
+Time Complexity: O(n)
+Explanation: When the list is already sorted or nearly sorted, Insertion Sort requires fewer operations because it only needs to check each node once before determining its position within the sorted sequence.
+
+Average Case:
+Time Complexity: O(n^2)
+Explanation: In a random sequence, on average, Insertion Sort compares and potentially moves each element approximately half of the already sorted elements. This results in quadratic time complexity due to its nested iteration structure.
+
+Worst Case:
+Time Complexity: O(n^2)
+Explanation: When the list is in reverse order, Insertion Sort demands the maximum number of comparisons and movements for each element, leading to a quadratic time complexity where the number of operations grows exponentially with the number of elements.

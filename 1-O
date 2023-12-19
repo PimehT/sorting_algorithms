@@ -1,0 +1,3 @@
+Best Case: O(n) - If the list is already sorted or nearly sorted, the algorithm requires fewer operations as it only needs to check each node once.
+Average Case: O(n^2) - For a random sequence, on average, each element has to be compared and possibly moved roughly half of the already sorted elements, leading to quadratic time complexity.
+Worst Case: O(n^2) - If the list is in reverse order, the algorithm will need maximum comparisons and movements for each element, resulting in a quadratic time complexity.
